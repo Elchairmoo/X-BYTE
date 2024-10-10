@@ -44,6 +44,6 @@ ANTI_DELETE : process.env.ANTI_DELETE || true ,
 // BLOCK_COUNTRY_PREFIX : process.env.BLOCK_COUNTRY_PREFIX || "1",
 BOT_EXPIRY_DATE : process.env.BOT_EXPIRY_DATE || '2029-09-05',
 BOT_EXPIRY_TIME : process.env.BOT_EXPIRY_TIME || '16:24:00',
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '233207415469' : process.env.DELETEMSGSENDTO,
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
   
 };
